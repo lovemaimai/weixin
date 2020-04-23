@@ -1,0 +1,7 @@
+<view class="btn-area">
+  <navigator url="/pages/gamesamba/gamesamba" open-type="switchTab" hover-class="navigator-hover"><button>进入报表</button></navigator>
+  <navigator url="/pages/maps/maps" open-type="navigate" hover-class="navigator-hover"><button>其他功能</button></navigator>
+</view>
+
+
+

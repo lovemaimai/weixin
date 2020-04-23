@@ -1,0 +1,16 @@
+<view class="container1" wx:if="{{canIUse}}">
+ <view class='header'>
+  <image src='/images/logo.png'></image>
+ </view>
+  
+ <view class='content'>
+  <view > 欢迎来到N1报表</view>
+  <text>登陆后仅限公司内部人员进入</text>
+ </view>
+  
+ <button class='bottom' type='primary' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bindGetUserInfo">
+  登录
+ </button>
+</view>
+  
+<view wx:else>请升级微信版本</view>

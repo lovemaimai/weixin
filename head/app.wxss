@@ -1,0 +1,107 @@
+/* pages/echarts/echarts.wxss */
+page{
+  height: 100%;
+}
+
+ec-canvas {
+  width: 100%;
+  height: 100%;
+  }
+.tabContainer{
+  position: absolute;
+  height: 15%;
+  top:0px;
+  display: flex;
+  flex-direction: row;
+  left: 0px;
+  right: 0px;  
+  text-align: center;
+}
+.container { 
+  position: absolute;
+  top: 70px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-top: 40px;
+  
+  
+}
+
+.picker-pos {
+  margin-top: -130rpx;
+  margin-left: 150rpx;
+  color: #9FE6B8;
+}
+.active{  
+  width: 20%;
+  height: 20%;
+  border: 1px solid;
+  border-color: white;
+  float:left;
+  font-size: 15px;
+  background-color: #9C9C9C;
+  font-family: "sans-serif";
+  color: #551A8B;  
+  text-align: center;
+}
+
+.noactive{  
+  width: 20%;
+  height: 20%;
+  border: 1px solid;
+  border-color: white;
+  float:left;
+  font-size: 15px;
+  background-color: #E8E8E8;
+  font-family: "sans-serif";
+  color: #AB82FF;  
+  text-align: center;
+}
+
+.btns{
+  position: absolute;
+  top:30px;  
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  font-size: 20;
+}
+
+
+
+.button-hover {color:rgba(0, 0, 0, 0.6);background-color:#fff;}
+.note{
+  position: absolute;
+  bottom:30px;
+  left:20px;
+  right:20px;
+  width: 90%;
+}
+
+.buttonActive{
+  width:50% !important;
+  border-radius:10px;
+  background-color: darkgrey;
+  border: 1px solid;
+  border-color: white;  
+  color: #fff;
+  font-size: 30rpx;
+  background: darkgreen;
+}
+
+.buttonNoactive{
+  width:50% !important;
+  border-radius:10px;  
+  border: 1px solid;
+  border-color: white;
+  color: #fff;
+  font-size: 30rpx;
+  background: #04BE02;
+}

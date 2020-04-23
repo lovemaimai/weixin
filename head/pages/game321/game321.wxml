@@ -1,0 +1,22 @@
+<!--pages/echarts/echarts.wxml-->
+<!--index.wxml-->
+
+<view class="container"  >
+  <ec-canvas id="mychart-dom-line" canvas-id="mychart-line" ec="{{ ec }}" ></ec-canvas>
+</view>
+<view class="tabContainer">
+  <view class="{{condition1}}" bindtap="tapTab" id="condition1">登陆人数</view>
+  <view class="{{condition2}}" bindtap="tapTab" id="condition2">注册人数</view>
+  <view class="{{condition3}}" bindtap="tapTab" id="condition3">划拨金额</view>
+  <view class="{{condition4}}" bindtap="tapTab" id="condition4">划拨次数</view>
+  <view class="{{condition5}}" bindtap="tapTab" id="condition5">划拨人数</view>
+</view>
+<view class="btns" >
+  <button bindtap="tapTab" id="button1" class="{{buttonCondition1}}">过往30日数据</button>
+  <button bindtap="tapTab" id="button2" class="{{buttonCondition2}}">当日实时数据</button>
+  <button bindtap="tapTab" id="button3" class="{{buttonCondition3}}">过往12月数据</button>
+  <button bindtap="tapTab" id="button4" class="{{buttonCondition4}}">回到主页</button>
+</view>
+<view class="note">
+<text>{{notetext}}</text>
+</view>

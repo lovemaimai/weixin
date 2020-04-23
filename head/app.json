@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/test/test",
+    "pages/gamesamba/gamesamba",
+    "pages/game321/game321",
+    "pages/mobile/mobile",
+    "pages/header/header",
+    "pages/maps/maps"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "N1报表",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#E8E8E8",
+    "selectedColor": "#1C1C1C",
+    "list": [
+      {
+        "pagePath": "pages/gamesamba/gamesamba",
+        "text": "Gamesamba",
+        "iconPath": "images/view_off.png",
+        "selectedIconPath": "images/view.png"
+      },
+      {
+        "pagePath": "pages/game321/game321",
+        "text": "Game321",
+        "iconPath": "images/view_off.png",
+        "selectedIconPath": "images/view.png"
+      },
+      {
+        "pagePath": "pages/mobile/mobile",
+        "text": "Gamesamba Mobile",
+        "iconPath": "images/view_off.png",
+        "selectedIconPath": "images/view.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

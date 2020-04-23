@@ -1,0 +1,12 @@
+
+
+/**index.wxss**/
+button{
+  width:50% !important;
+  border-radius:10px;  
+  border: 1px solid;
+  border-color: white;
+  color: #fff;
+  font-size: 30rpx;
+  background: #04BE02;
+}
