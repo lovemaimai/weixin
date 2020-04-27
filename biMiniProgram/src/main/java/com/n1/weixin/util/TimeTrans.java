@@ -71,6 +71,19 @@ public class TimeTrans {
 
     /**
      *
+     * @return 获取当前小时，格式为yyyy-MM-dd HH:mm:ss
+     */
+    public static String getBjTime(){
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        simpleDateFormat.setTimeZone(TimeZone.getTimeZone("Asia/Shanghai"));
+        Date date = new Date();
+        return simpleDateFormat.format(date);
+    }
+
+
+
+    /**
+     *
      * @return 获取23小时之前，格式为yyyy-MM-dd HH:mm:ss
      */
     public static String getStartDate(){
@@ -139,8 +152,6 @@ public class TimeTrans {
         }
         return  date;
     }
-    public static void main(String[] args) {
-        System.out.println(addDate(1,"2001-01-01"));
-    }
+
 }
 

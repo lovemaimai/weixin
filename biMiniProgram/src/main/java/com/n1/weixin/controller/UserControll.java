@@ -22,7 +22,7 @@ public class UserControll {
     @ResponseBody
     public Boolean returnLimit(@Param("nickName") String nickName){
         User user = userService.getUserByNickName(HandleStr.filterEmoji(nickName));
-        System.out.println(user);
+        System.out.println(user+"logging...");
         if(user==null){
             return false;
         }else{

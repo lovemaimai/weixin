@@ -1,8 +1,11 @@
 package com.n1.weixin.entity;
 
+import org.springframework.stereotype.Repository;
+
 /**
  * Created by admin on 2020/4/20.
  */
+@Repository
 public class Result {
     //游戏平台
     private String platform;

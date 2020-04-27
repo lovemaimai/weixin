@@ -181,7 +181,7 @@ public class HandleList {
         for(int i=0;i<allDateList.size();i++){
             newList.add(d2l.get(allDateList.get(i)));
         }
-        System.out.println(newList);
+        //System.out.println(newList);
         return newList;
     }
 
@@ -258,7 +258,7 @@ public class HandleList {
                 }
                 String num = resultList.getJSONObject(i).getString("numList");
                 List<String> numList = Arrays.asList(num.split(","));
-                System.out.println(numList);
+                //System.out.println(numList);
                 String time = resultList.getJSONObject(i).getString("timeList");
 
                 List<String> timeList = Arrays.asList(time.split(","));
